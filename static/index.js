@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '逊呐';
-    if (score <= 99) return '你是一个一个';
-    if (score <= 149) return '哼哼哼';
-    if (score <= 199) return '三哼经';
+    if (score <= 49) return '立燕解清';
+    if (score <= 99) return '通识教育';
+    if (score <= 149) return '都能保研';
+    if (score <= 199) return '留美预备';
     return 'やりますね';
 }
 
